@@ -28,6 +28,7 @@ You can specify a different IP for each service hosted within the cache, with th
 LANCACHE_IP (default value for all below)
 
 BLIZZARDCACHE_IP
+EPICGAMESCACHE_IP
 FRONTIERCACHE_IP
 ORIGINCACHE_IP
 RIOTCACHE_IP
@@ -39,6 +40,7 @@ WINDOWSCACHE_IP
 You can also disable any of the cache dns resolvers by setting the following environment variables:
 ```
 DISABLE_BLIZZARD
+DISABLE_EPICGAMES
 DISABLE_FRONTIER
 DISABLE_ORIGIN
 DISABLE_RIOT
