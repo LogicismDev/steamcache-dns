@@ -35,6 +35,7 @@ RIOTCACHE_IP
 STEAMCACHE_IP
 UPLAYCACHE_IP
 WINDOWSCACHE_IP
+XBOXLIVECACHE_IP
 ```
 
 You can also disable any of the cache dns resolvers by setting the following environment variables:
@@ -47,6 +48,7 @@ DISABLE_RIOT
 DISABLE_STEAM
 DISABLE_UPLAY
 DISABLE_WINDOWS
+DISABLE_XBOXLIVE
 ```
 
 ### Additional Docker Options
