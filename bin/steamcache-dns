@@ -6,7 +6,7 @@ CONFIG_FILE=$(mktemp "/tmp/dnsmasq.conf.XXXXXX")
 cp /etc/dnsmasq.d/steamcache.conf.tmpl "$CONFIG_FILE"
 
 # Loop over each of the available services and update the dnsmasq config file.
-SERVICES="BLIZZARD EPICGAMES FRONTIER NINTENDO ORIGIN RIOT ROCKSTAR STEAM UPLAY WINDOWS XBOXLIVE"
+SERVICES="BLIZZARD EPICGAMES FRONTIER NINTENDO ORIGIN RIOT ROCKSTAR SONY STEAM UPLAY WINDOWS XBOXLIVE"
 for SERVICE in $SERVICES; do
 	# Alpine Linux doesn't ship with bash so we use the more portable eval.
 	# Get the variable that disables the current service.
